@@ -28,7 +28,7 @@ function TodoForm() {
         <form onSubmit={onSubmit}>
             <label>Escribe tu nuevo TODO</label>
             <textarea
-                placeholder="Bañarse la cola"
+                placeholder="Escribe aquí"
                 value={newTodoValue}
                 onChange={onChange}
             />
